@@ -9,7 +9,6 @@ import Bio from "./pages/Bio/bio.js";
 import Social from "./pages/Social/social.js";
 import "./App.css"
 function App() {
-  // const [currentCategory, setCurrentCategory] = useState("About");
     const [currentCategory, setCurrentCategory] = useState("Intro");
   
   const pageSelect = () =>{

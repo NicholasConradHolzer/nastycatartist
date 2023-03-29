@@ -1,5 +1,5 @@
 import React from "react";
-import about from "../../assets/images/hero.jpg";
+
 
 export default function Music(){
     return(
