@@ -282,6 +282,9 @@ Let vcolorsage8 = 'RGB(232,236,232)';
       text-decoration: none;
       font-size: 7vw;
   }
+  #selfTitle a {
+    text-decoration: none;
+  }
   #selfTitle:hover {
       color: var(--cobalt);
       text-shadow: -2px -2px 15px var(--glacier);

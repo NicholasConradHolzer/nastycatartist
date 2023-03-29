@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import profile from "../../assets/images/FtLewisNick.jpg";
 
@@ -17,15 +15,10 @@ export default function Intro(){
         <div id="moodSet">
             <h1>
                 <a id="selfTitle" href="">
-                    Nicholas Holzer
+                    NASTY<a href="https://www.youtube.com/watch?v=bC2rlhbgmqs">-</a>CAT
                 </a>
             </h1>
             <img className="" src={profile} />
-            <div id="moodCard" class="carderizer">
-                <ul>
-                    <li>Technical Expert <a href="https://www.youtube.com/watch?v=bC2rlhbgmqs">&</a> IT Solutions</li>
-                </ul>
-            </div>
         </div>
     </div>
     )

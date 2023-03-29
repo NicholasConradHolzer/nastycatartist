@@ -17,11 +17,15 @@ export default function Nav(props){
         <div id="nav" className={ introHead() }>
             <ul>
                 <li>
-                    <a id="about" className={props.currentCategory === "About" ? 'navActive' : 'navInactive'} onClick={() =>props.setCurrentCategory("About")}>About</a>
+                    <a id="music" className={props.currentCategory === "Music" ? 'navActive' : 'navInactive'} onClick={() =>props.setCurrentCategory("Music")}>Music</a>
                 </li>
-          
+                
                 <li>
-                    <a id="projects" className={props.currentCategory === "Projects" ? 'navActive' : 'navInactive'} onClick={() =>props.setCurrentCategory("Projects")}>Projects</a>
+                    <a id="bio" className={props.currentCategory === "Bio" ? 'navActive' : 'navInactive'} onClick={() =>props.setCurrentCategory("Bio")}>Bio</a>
+                </li>
+
+                <li>
+                    <a id="social" className={props.currentCategory === "Social" ? 'navActive' : 'navInactive'} onClick={() =>props.setCurrentCategory("Social")}>Social</a>
                 </li>
             </ul>
         </div>

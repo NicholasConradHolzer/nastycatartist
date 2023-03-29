@@ -53,8 +53,8 @@ export default function Social(){
             </h2>
         </div>
             <div id="projectHolder">
-                {projectArray.map((project, index)=>(
-                    <ProjMod key={index} project = {project}></ProjMod>
+                {projectArray.map((social, index)=>(
+                    <ProjMod key={index} social = {social}></ProjMod>
                 ))}
             </div>
         </div>

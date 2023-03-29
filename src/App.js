@@ -21,7 +21,7 @@ function App() {
     if(currentCategory === "Bio"){
       return <Bio></Bio>
     }
-    if(currentCategory === "Projects"){
+    if(currentCategory === "Social"){
       return <Social></Social>
     }
   }
