@@ -7,7 +7,7 @@ import horiseon from "../../assets/images/project-horiseon.PNG";
 // import  from "../../assets/images/";
 
 
-export default function Projects(){
+export default function Social(){
     const projectArray = [
         {
             title: 'Fanpage: Nyango-Starr',

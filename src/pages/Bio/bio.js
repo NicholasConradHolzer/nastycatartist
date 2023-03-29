@@ -1,7 +1,6 @@
 import React from "react";
-import about from "../../assets/images/hero.jpg";
 
-export default function About(){
+export default function Bio(){
     return(
         
         <div id="me">

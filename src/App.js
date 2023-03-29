@@ -4,10 +4,9 @@ import Header from "./components/Header/header.js";
 import Intro from "./components/Intro/intro.js";
 import Footer from "./components/Footer/footer.js";
 import trees from "./assets/images/TreesBG.jpg"
-import About from "./pages/About/about.js";
-/*import Contact from "./pages/Contact/contact.js";*/
-import Projects from "./pages/Projects/projects.js";
-
+import Music from "./pages/Music/music.js";
+import Bio from "./pages/Bio/bio.js";
+import Social from "./pages/Social/social.js";
 import "./App.css"
 function App() {
   // const [currentCategory, setCurrentCategory] = useState("About");
@@ -18,13 +17,13 @@ function App() {
       return <Intro></Intro>
     }
     if(currentCategory === "About"){
-      return <About></About>
+      return <Music></Music>
     }
-    /*if(currentCategory === "Contact"){
-      return <Contact></Contact>
-    }*/
+    if(currentCategory === "Bio"){
+      return <Bio></Bio>
+    }
     if(currentCategory === "Projects"){
-      return <Projects></Projects>
+      return <Social></Social>
     }
   }
   
