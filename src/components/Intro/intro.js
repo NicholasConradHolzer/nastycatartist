@@ -6,10 +6,6 @@ import profile from "../../assets/images/FtLewisNick.jpg";
 export default function Intro(){
    
     return(
-        
-
-       
-
         <div id="hero" class="chapterSize">
             
         <div id="moodSet">
