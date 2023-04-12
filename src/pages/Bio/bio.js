@@ -23,10 +23,7 @@ export default function Bio(){
 					<div className="info-box">
 						<article>
 							<p>
-								My Name is Nicholas Holzer; a student of Website Development, and Computing Technology Enthusiast.<br/>
-								My longterm goals include development of my own app systems and breaking ground in new AI cognizing methods.<br/>
-								Thank you very much for checking out my portfolio today; enjoy your visit, and <br/>
-								reach out if you like what you see!
+								Nashville Tennessee's premier Funk&#41;n&#41;Roll DJ-MC One&#45;Man&#45;Band!
 							</p>
 						</article>
 					</div>
