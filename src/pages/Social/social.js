@@ -43,12 +43,8 @@ export default function Social(){
                Social Media Links!
             </h2>
         </div>
-            {/* <div id="projectHolder">
-                {projectArray.map((social, index)=>(
-                    <ProjMod key={index} social = {social}></ProjMod>
-                ))}
-            </div> */}
-           {instagram}
+            <div>
+           {instagram}</div>
         </div>
     )
 }
