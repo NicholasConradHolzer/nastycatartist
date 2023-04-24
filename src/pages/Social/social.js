@@ -37,7 +37,7 @@ export default function Social(){
             tech:''
         }]
     return(
-        <div id="work-samples-nick" className="work-display chapterSize">
+        <div id="work-samples-nick" className="work-display">
         <div id="samplesHolder">
             <h2 className="section-title">
                Social Media Links!
