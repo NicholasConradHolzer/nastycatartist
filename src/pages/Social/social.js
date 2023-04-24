@@ -3,7 +3,7 @@ import ProjMod from "../../components/ProjMod/projmod.js";
 import nyango from "../../assets/images/project-nyango.PNG";
 import watchBox from "../../assets/images/project-box.PNG";
 import runBuddy from "../../assets/images/project-runbuddy.PNG";
-import horiseon from "../../assets/images/project-horiseon.PNG";
+import instagram from "../../components/Embeds/instagram.js";
 // import  from "../../assets/images/";
 
 
@@ -48,6 +48,7 @@ export default function Social(){
                     <ProjMod key={index} social = {social}></ProjMod>
                 ))}
             </div>
+           {instagram}
         </div>
     )
 }
