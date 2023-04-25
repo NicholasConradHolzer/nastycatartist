@@ -19,7 +19,7 @@ export default function instagram(){
 
     return(
         <div 
-        innerHTML={{__html: combinationNation()}}
+        dangerouslySetInnerHTML={{__html: combinationNation()}}
         />
     );
 }
