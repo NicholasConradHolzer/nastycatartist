@@ -23,7 +23,7 @@ export default function Bio(){
 					<div className="info-box">
 						<article>
 							<p>
-								Nashville Tennessee's premier Funk&#41;n&#41;Roll DJ-MC One&#45;Man&#45;Band!
+								Nashville Tennessee's premier Funk'n'Roll DJ-MC One-Man-Band!
 							</p>
 						</article>
 					</div>
