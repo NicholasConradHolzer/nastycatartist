@@ -11,9 +11,9 @@ export default function Bio(){
 					About Me
 				</h2>
 				<p className="backText fullWide chapterSize">
-					Using a Diverse Career History<br/>
-					to Deploy Versatility in<br/>
-					Problem Solving
+					The world is an Illusion<br/>
+					designed to trap your soul<br/>
+					built by a dick spirit that wanted to be a god
 				</p>
 
 				<div id="aboutCard">
